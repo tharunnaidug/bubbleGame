@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="panel">
+            <!-- The Top Panel for Score And Info -->
+            <div class="ptop">
+                <div class="ele">
+                    <h2>Hit</h2>
+                    <div class="box" id="hit">
+                        0
+                    </div>
+                </div>
+                <div class="ele">
+                    <h2> Timer</h2>
+                    <div class="box" id="timer">
+                        60
+                    </div>
+                </div>
+                <div class="ele">
+                    <h2>Score</h2>
+                    <div class="box" id="score">
+                        0
+                    </div>
+                </div>
+            </div>
+            <!-- Welcome Section -->
+            <div class="temp">
+                <h2>Welcome to Bubble Game</h2>
+                <h4>Instructions </h4>
+                <p>You Need to Click on the Bubbles With same Number as Shown in the Hit </p>
+                <p>Per One succesful Hit You will get 10 Points</p>
+                <p>You will have Fixed 60 Seconds of time</p>
+                <button class="btn" onclick="playGame()">Play Now!</button>
+            </div>
+            <!-- Acutal Game Section -->
+            <div class="pbtm">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<!-- Script -->
+<script src="app.js"></script>
+
+</html>
